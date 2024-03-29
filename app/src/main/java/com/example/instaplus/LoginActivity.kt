@@ -33,5 +33,10 @@ class LoginActivity : AppCompatActivity() {
                     }
             }
         }
+
+        binding.createAccountBtn.setOnClickListener{
+            startActivity((Intent(this@LoginActivity,SignUpActivity::class.java)))
+            finish()
+        }
     }
 }

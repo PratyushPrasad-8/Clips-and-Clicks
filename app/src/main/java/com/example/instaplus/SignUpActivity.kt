@@ -82,7 +82,7 @@ class SignUpActivity : AppCompatActivity() {
                 if(binding.name.editText?.text.toString().equals("") or
                     binding.email.editText?.text.toString().equals("") or
                     binding.password.editText?.text.toString().equals("")){
-                    Toast.makeText(this@SignUpActivity,"Please Fill the Required Information",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@SignUpActivity,"Please Fill All The Above Information...",Toast.LENGTH_SHORT).show()
                 }else{
                     FirebaseAuth.getInstance().createUserWithEmailAndPassword(
                         binding.email.editText?.text.toString(),

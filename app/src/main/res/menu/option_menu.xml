@@ -12,6 +12,5 @@
         android:id="@+id/message"
         android:icon="@drawable/message"
         android:title="Message"
-        app:showAsAction="always"/>
-
+        app:showAsAction="always" />
 </menu>

@@ -7,7 +7,8 @@
     android:layout_margin="10dp"
     app:cardCornerRadius="30dp"
     app:cardElevation="10dp"
-    app:contentPadding="10dp">
+    app:contentPadding="10dp"
+    app:cardBackgroundColor="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
                 android:id="@+id/profile_image1"
                 android:layout_width="86dp"
                 android:layout_height="65dp"
-                android:src="@drawable/signupuser"
+                android:src="@drawable/user"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"

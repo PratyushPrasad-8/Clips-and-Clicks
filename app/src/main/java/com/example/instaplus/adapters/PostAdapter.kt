@@ -62,14 +62,26 @@ class PostAdapter(var context: Context, var postList: List<Post>) :
             context.startActivity(i)
         }
 
+        var countLike: Int=0
+        var countSave: Int=0
         holder.binding.caption.text = postList.get(position).caption
 
         holder.binding.like.setOnClickListener {
-            holder.binding.like.setImageResource(R.drawable.heart)
+            if(countLike%2==0){
+                holder.binding.like.setImageResource(R.drawable.heart)
+            }else{
+                holder.binding.like.setImageResource(R.drawable.like)
+            }
+            countLike+=1
         }
 
         holder.binding.save.setOnClickListener {
-            holder.binding.save.setImageResource(R.drawable.saved)
+            if(countSave%2==0){
+                holder.binding.save.setImageResource(R.drawable.saved)
+            }else{
+                holder.binding.save.setImageResource(R.drawable.save)
+            }
+            countSave+=1
         }
 
     }

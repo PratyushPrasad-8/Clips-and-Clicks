@@ -11,8 +11,8 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginTop="136dp"
-        android:src="@drawable/signupuser"
-        app:civ_border_color="#FF000000"
+        android:src="@drawable/user"
+        app:civ_border_color="#3B1B7A"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -109,7 +109,6 @@
         android:layout_width="260dp"
         android:layout_height="21dp"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="70dp"
         android:layout_marginEnd="181dp"
         android:layout_marginBottom="71dp"
         android:text="Already have an Account Login?"
@@ -120,6 +119,6 @@
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign_up_btn"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.979" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

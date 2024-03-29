@@ -17,10 +17,12 @@ import com.example.instaplus.adapters.PostAdapter
 import com.example.instaplus.databinding.FragmentHomeBinding
 import com.example.instaplus.utils.FOLLOW
 import com.example.instaplus.utils.POST
+import com.example.instaplus.utils.USER_NODE
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.toObject
+import com.squareup.picasso.Picasso
 
 class HomeFragment : Fragment() {
     private lateinit var binding:FragmentHomeBinding
@@ -48,6 +50,14 @@ class HomeFragment : Fragment() {
         binding.followRv.adapter=followAdapter
         setHasOptionsMenu(true)
         (requireActivity() as AppCompatActivity).setSupportActionBar(binding.materialToolbar2)
+
+        Firebase.firestore.collection(USER_NODE).document(Firebase.auth.currentUser!!.uid).get().addOnSuccessListener {
+            val user:User=it.toObject<User>()!!
+            if(!user.image.isNullOrEmpty()){
+                Picasso.get().load(user.image).into(binding.profileImage4)
+            }
+        }
+
 
         Firebase.firestore.collection(Firebase.auth.currentUser!!.uid+ FOLLOW).get().addOnSuccessListener {
             var tempList=ArrayList<User>()
