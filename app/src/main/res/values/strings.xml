@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Social Sync</string>
+    <string name="app_name">Clips and Clicks</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

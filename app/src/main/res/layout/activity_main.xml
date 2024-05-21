@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="187dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="116dp"
+        android:text="Clips and Clicks"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="268dp"
@@ -19,13 +35,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.473"
-        app:srcCompat="@drawable/sociosynclogo" />
+        app:srcCompat="@drawable/mainactivitycentrelogo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="69dp"
         android:layout_height="28dp"
-        android:layout_marginStart="174dp"
         android:layout_marginTop="116dp"
         android:text="From"
         android:textAlignment="center"
@@ -33,15 +48,15 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintVertical_bias="0.816" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="274dp"
-        android:layout_height="35dp"
+        android:layout_width="258dp"
+        android:layout_height="66dp"
         android:layout_marginStart="169dp"
         android:layout_marginEnd="196dp"
         android:drawableLeft="@drawable/entrancelogo"
@@ -53,8 +68,8 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922" />
+        app:layout_constraintVertical_bias="0.936" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,6 +46,16 @@ class MyPostFragment : Fragment() {
         return binding.root
     }
 
+    override fun onStart() {
+        var postList=ArrayList<Post>()
+        var adapter=MyPostRvAdapter(requireContext(),postList)
+        binding.rv.layoutManager=StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL)
+        binding.rv.adapter=adapter
+
+        super.onStart()
+        adapter.notifyDataSetChanged()
+    }
+
     companion object {
     }
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
+import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.instaplus.Models.User
@@ -24,7 +25,6 @@ class SignUpActivity : AppCompatActivity() {
         ActivitySignUpBinding.inflate(layoutInflater)
     }
 
-
     lateinit var user: User
     private val launcher= registerForActivityResult(ActivityResultContracts.GetContent()){
         uri->
@@ -33,6 +33,7 @@ class SignUpActivity : AppCompatActivity() {
                 if(it!=null){
                     user.image=it
                     binding.profileImage.setImageURI(uri)
+                    binding.signupProgressBarLoadingImage.alpha=0f
                 }
             }
         }
@@ -41,6 +42,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.signupProgressBarLoadingImage.alpha=0f
         val text= "<font color=#FF000000> Already have an Account </font> <font color=#1E88E5>Login ?</font>"
         binding.login.setText(Html.fromHtml(text))
         user = User()
@@ -111,12 +113,14 @@ class SignUpActivity : AppCompatActivity() {
 
 
         }
+
         binding.addImage.setOnClickListener{
+            binding.signupProgressBarLoadingImage.alpha=1f
             launcher.launch("image/*")
         }
+
         binding.login.setOnClickListener {
             startActivity(Intent(this@SignUpActivity,LoginActivity::class.java))
-            finish()
         }
     }
 }

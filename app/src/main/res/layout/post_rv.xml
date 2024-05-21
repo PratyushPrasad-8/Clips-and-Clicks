@@ -60,8 +60,9 @@
 
         <ImageView
             android:id="@+id/post_image"
-            android:layout_width="370dp"
-            android:layout_height="400dp"
+            android:layout_width="350dp"
+            android:layout_height="342dp"
+            android:layout_margin="10dp"
             android:padding="5dp"
             tools:srcCompat="@drawable/loading" />
 

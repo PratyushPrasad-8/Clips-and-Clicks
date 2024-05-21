@@ -32,6 +32,7 @@ class PostActivity : AppCompatActivity() {
             uploadImage(uri, POST_FOLDER) { url ->
                 if (url != null) {
                     binding.selectImage.setImageURI(uri)
+                    binding.AddPostImageLoader.alpha=0f
                     imageUrl = url
                 }
             }
@@ -43,6 +44,7 @@ class PostActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.materialToolbar)
 
+        binding.AddPostImageLoader.alpha=0f
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
         getSupportActionBar()?.setDisplayShowHomeEnabled(true);
         binding.materialToolbar.setNavigationOnClickListener {
@@ -51,6 +53,7 @@ class PostActivity : AppCompatActivity() {
         }
 
         binding.selectImage.setOnClickListener {
+            binding.AddPostImageLoader.alpha=1f
             launcher.launch("image/*")
         }
 
