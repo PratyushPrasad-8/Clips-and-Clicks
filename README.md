@@ -1,4 +1,4 @@
-**About**
+**About**  
 _Welcome to Clips and Clicks!_
 _Clips and Clicks_ is a modern social media platform designed to connect people in meaningful ways. Created with the latest technologies and a user-friendly interface, our app aims to provide a seamless social networking experience.
 
@@ -21,19 +21,15 @@ Our goal is to create a social platform that fosters genuine connections and com
 **Getting Started**
 To get started with Clips and Clicks, follow the instructions given below:
 
-Clone the Repository: git clone https://github.com/yourusername/your-repo-name.git
+Clone the Repository: git clone https://github.com/PratyushPrasad-8/Clips-and-Clicks.git
 Install Dependencies: Navigate to the project directory and run npm install (or yarn install) to install necessary packages.
 Start the Server: Use npm start (or yarn start) to launch the application.
-Explore and Contribute: Check out our [CONTRIBUTING.md](link to contributing guidelines) for guidelines on how to contribute to this project.
 Contributions
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated. Please check out our [issues](link to issues) to get started.
+We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
 
-License
-This project is licensed under the MIT License - see the [LICENSE.md](link to license file) file for details.
+**License**
+This project has no license as we are newbies in this field and just trying to outshine our talent.
 
-Connect with Us
-Email: your-email@example.com
-Twitter: @yourtwitterhandle
-Website: www.yourwebsite.com
-Thank you for visiting our project! We hope you enjoy using [Your App Name] as much as we enjoyed creating it.
-
+**Connect with Us**
+Email: pratyushprasad108@gmail.com
+Thank you for visiting our project! We hope you enjoy using Clips and Clicks as much as we enjoyed creating it.
