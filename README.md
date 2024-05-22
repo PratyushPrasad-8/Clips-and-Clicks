@@ -16,9 +16,18 @@ _Clips and Clicks_ is a modern social media platform designed to connect people 
 *Like and Share :* Allowing users to like and share the post they want.
 
 # *Technologies Used*  
-Frontend: Built with XML, offering a dynamic and responsive user experience.  
-Backend: Powered by FireBase, ensuring fast and reliable data handling.  
-Database: FireStore and Realtime Database [FireBase] for efficient data storage and retrieval.
+**Frontend:** Built with XML, offering a dynamic and responsive user experience.
+
+
+**Backend:**  
+Powered by FireBase, ensuring fast and reliable data handling.  
+- *API Integration:* Utilize Firebase for server-side functionalities, including authentication, database (Firestore), and storage.
+- *Material Design Components:* Leverage Material Components for Android to ensure consistent UI/UX design throughout the app, including Material Toolbar for navigation and action items.
+- *Image Loading:* Utilize Glide library for efficient image loading, caching, and displaying within RecyclerViews and user profiles.
+- *Time Formatting:* Integrate Marlon Lomeli's TimeAgo library for convenient and dynamic time formatting, enabling relative timestamps for content (e.g., "2 hours ago").
+
+  
+**Database:** FireStore and Realtime Database [FireBase] for efficient data storage and retrieval.
 
 # *Our Vision* 
 Our goal is to create a social platform that fosters genuine connections and community engagement. We believe in the power of technology to bring people together and create positive social impacts.
@@ -41,7 +50,7 @@ Email: pratyushprasad108@gmail.com
 Thank you for visiting our project! We hope you enjoy using Clips and Clicks as much as we enjoyed creating it.
 😊🫰🔆
 
-# *Sample Outputs*
+# *Random Screen Shots*
 ![Git_I1](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/db55d384-d5a9-448a-83b1-7e209f8c9ab1)
 ![Git_I2](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/13b45769-d6dd-4f0a-89f4-1708d7ab2982)
 ![Git_I3](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/c366486d-ba86-4847-a07d-a520956dcc82)
