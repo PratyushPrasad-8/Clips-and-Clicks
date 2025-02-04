@@ -51,13 +51,15 @@ Thank you for visiting our project! We hope you enjoy using Clips and Clicks as 
 😊🫰🔆
 
 # *Random Screen Shots*
-![Git_I1](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/db55d384-d5a9-448a-83b1-7e209f8c9ab1)
-![Git_I2](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/13b45769-d6dd-4f0a-89f4-1708d7ab2982)
-![Git_I3](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/c366486d-ba86-4847-a07d-a520956dcc82)
-![Git_I4](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/f7872212-e77a-45af-b79c-04e96d508198)
-![Git_I5](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/74790a67-7352-4b82-aed2-33f155ec6bc8)
-![Git_I6](https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/b3a94376-4c4c-4fd5-9263-f8751d676bd2)
-
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/db55d384-d5a9-448a-83b1-7e209f8c9ab1" height=300>
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/13b45769-d6dd-4f0a-89f4-1708d7ab2982" height=300>
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/c366486d-ba86-4847-a07d-a520956dcc82" height=300>
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/f7872212-e77a-45af-b79c-04e96d508198" height=300>
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/74790a67-7352-4b82-aed2-33f155ec6bc8" height=300>
+<img src="https://github.com/PratyushPrasad-8/Clips-and-Clicks/assets/154315809/b3a94376-4c4c-4fd5-9263-f8751d676bd2" height=300>
+<br>
+<br>
+<br>
 
 
 
